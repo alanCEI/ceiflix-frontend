@@ -10,7 +10,7 @@ import RegisterPage from "./pages/RegisterPage";
 function App() {
   const [user, setUser] = useState(null);
   const [watchedMovies, setWatchedMovies] = useState([]);
-
+  
   const handleLogin = (email) => {
     setUser({
       id: 1,
