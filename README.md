@@ -4,9 +4,9 @@
 
 Que pelicula es 152601
 
-https://api.themoviedb.org/3/movie/{movie_id}
+https://api.themoviedb.org/3/movie/{movie_id}/
 
-Funciona con Bearer token no con la API_KEY
+Funciona con Bearer token y con la API_KEY
 
 - Url completa de la imagen del poster de HER en un ancho de 400px https://image.tmdb.org/t/p/w400/
 
@@ -22,4 +22,6 @@ GET https://api.themoviedb.org/3/movie/152601
 - Buscar endpoint para solo peliculas de ciencia ficcion https://api.themoviedb.org/3/discover/movie/878
 - Buscar peliculas del 2025 ordenas de mas popular a menos
 - Buscar enpoints para peliculñas de ciencia ficcion con mas de 8 puntos con mas 1000 votos, ordenar de mayor a menor por popularidad
-- Buscar todas las peliculas que contengan la palabra "matrix"
+- Buscar todas las peliculas que contengan la palabra "matrix" https://api.themoviedb.org/3/search/movie?query=matrix
+
+-
