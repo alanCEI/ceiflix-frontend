@@ -70,7 +70,7 @@ function MovieDetailsPage({ context }) {
     <div>
       <Link
         to="/"
-        className="inline-block mb-6 text-red-500 hover:text-red-400 flex items-center"
+        className="mb-6 text-red-500 hover:text-red-400 flex items-center"
       >
         <svg
           className="h-5 w-5 mr-1"

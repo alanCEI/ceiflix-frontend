@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router";
+import { Routes, Route, Link, NavLink } from "react-router";
 
 import HomePage from "./pages/HomePage";
 import MovieDetailsPage from "./pages/MovieDetailsPage";
@@ -66,7 +66,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    
       <div className="min-h-screen bg-gray-900 text-white font-sans">
         <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -159,7 +159,7 @@ function App() {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    
   );
 }
 

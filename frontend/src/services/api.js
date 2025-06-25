@@ -3,7 +3,7 @@ const API_TOKEN = import.meta.env.VITE_TOKEN_API_TMDB;
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/";
 
 const fetchFromAPI = async (endpoint, options = {}) => {
-  if (!API_TOKEN || API_TOKEN === "TU_TOKEN_API_AQUÍ") {
+  if (!API_TOKEN || API_TOKEN === "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOWY3MTk1MmFjZTUwOTM4NGY1ZGRkMWFlODZkYzU4MSIsIm5iZiI6MTc1MDcwMjQwOS45NjIsInN1YiI6IjY4NTk5OTQ5NWNmY2E4MjZlNWE1YTMzMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hFArcKlV3tRjbRpiN6STvzSU_TuuDe8HjHJV33f1ICc") {
     throw new Error("El token de API de TMDB no está configurado.");
   }
 
