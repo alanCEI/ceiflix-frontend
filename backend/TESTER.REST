@@ -1,0 +1,39 @@
+@domain = http://localhost:3001
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODVjNGIwYzViZjZhMDNmMmM3ODVkODkiLCJ1c2VybmFtZSI6IkFsZWphbmRybyIsImlhdCI6MTc1MDg3OTg1OCwiZXhwIjoxNzUwODg3MDU4fQ.codVaIK2zueUBSNW7jK36V-tCkKY9vmm_7E_vgY7PcM
+POST {{domain}}/user/register
+Content-Type: application/json
+
+{
+    "username": "Alejandro",
+    "email": "alejandro@gmail.com",
+    "password": "123456"
+}
+
+###
+POST {{domain}}/user/login
+Content-Type: application/json
+
+{
+    "email": "alejandro@gmail.com",
+    "password": "123456"
+}
+###
+GET  {{domain}}/user/me
+Authorization: Bearer {{token}}
+###
+POST  {{domain}}/movies
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "title": "Lilo & Stitch",
+    "poster": "tUae3mefrDVTgm5mRzqWnZK6fOP.jpg",
+    "value": 0,
+    "apimovieid": 1087192
+}
+###
+GET  {{domain}}/movies/me
+Authorization: Bearer {{token}}
+
+###
+GET {{domain}}/movies?page=2
