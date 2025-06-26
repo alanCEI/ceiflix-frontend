@@ -69,9 +69,9 @@ function App() {
     
       <div className="min-h-screen bg-gray-900 text-white font-sans">
         <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
-              <div className="flex items-center">
+              <div className="flex items-center gap-8">
                 <Link to="/" className="text-2xl font-bold text-red-600">
                   CEIFLiX
                 </Link>
@@ -120,7 +120,7 @@ function App() {
                     </button>
                   </>
                 ) : (
-                  <div className="space-x-2">
+                  <div className="flex items-baseline gap-8">
                     <Link
                       to="/login"
                       className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:bg-gray-700"
