@@ -30,3 +30,4 @@ GET https://api.themoviedb.org/3/movie/152601
 v0.dev para NEXT.js
 
 Lovable.dev 
+
