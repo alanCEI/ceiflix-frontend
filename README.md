@@ -24,4 +24,9 @@ GET https://api.themoviedb.org/3/movie/152601
 - Buscar enpoints para peliculñas de ciencia ficcion con mas de 8 puntos con mas 1000 votos, ordenar de mayor a menor por popularidad
 - Buscar todas las peliculas que contengan la palabra "matrix" https://api.themoviedb.org/3/search/movie?query=matrix
 
--
+
+## Componentes AI
+
+v0.dev para NEXT.js
+
+Lovable.dev 
