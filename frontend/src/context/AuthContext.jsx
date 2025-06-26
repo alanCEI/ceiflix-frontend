@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import { useNavigate } from 'react-router';
+
 export const AuthContext = createContext();
 
 // Obtain data from LocalStorage
